@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image increase/decrease</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <img src="Fenrir wallpaper.jpg" alt="Image 1">
+            <button id="resizeBtn1" onclick="resizeImage('box1')"> Resize </button>
+        </div>
+        <div class="box" id="box2">
+            <img src="Lion wallpaper.jpg" alt="Image 2">
+            <button id="resizeBtn2" onclick="resizeImage('box2')"> Resize </button>
+        </div>
+        <button id="resizeToggleBtn" onclick="toggleSize()"> Resize both </button>
+    </div>
+</body>
+</html>
